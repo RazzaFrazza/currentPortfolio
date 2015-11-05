@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
     /* jQuery RSS - https://github.com/sdepold/jquery-rss */
     $("#rss-feeds").rss(
         //Change this to your own rss feeds
-        "http://razzakun.tumblr.com/rss",
+        "#",
         
         {
         // how many entries do you want?
@@ -38,3 +38,4 @@ jQuery(document).ready(function($) {
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "razzafrazza", selector: "#ghfeed" });
 });
+
